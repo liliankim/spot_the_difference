@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Boo The Dog</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!-- Linking CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Linking jQuery -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<!-- Linking Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab|Yellowtail' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<div class="container">
+
+<div class="jumbotron bg-primary text-center">
+		<h1>Boo The Dog Fan Page! </h1>
+	</div>
+
+		<div class="row">
+	<div class="col-sm-12">
+		<div class="panel panel-primary">
+		<div class="panel-heading">Instructions</div>
+			<div class="panel-body text-center">
+					<h4>Oh no! Someone has vandalized our Boo 'The Cutest Dog In The World' fanpage!</h4>
+				<h4>There are a bunch of errors on this page!</h4>
+				<h4>Try your best to find them all!</h4>
+				</div>
+				</div>
+		</div>
+	</div>
+
+		<div class="row">
+		<div class="col-sm-6">
+			<div class="panel panel-primary">
+				<div class="panel-heading">About Boo</div>
+				<div class="panel-body">
+						Boo the dog belongs to a San Francisco-based Facebook employee who created a Facebook page for the dog with a statement "My name is Boo. I am a dog. Life is good." He became popular in October 2010 after singer Ke$ha sent a tweet that she had a new boyfriend, linking to the page.
+						Chronicle Books, noticing that Boo had 5 million Facebook fans at the time, approached the owner to write a picture book. In August 2011, Boo: The Life of the World's Cutest Dog, written by his owner under pen name J.H. Lee, was published. The book was eventually published in ten languages. A second book followed, Boo: Little Dog in the Big City, as well as a calendar and plans for a cut-out book and additional children's books. He also has his own stuffed animal for kids. His merchandise includes a Gund stuffed animal.
+						Boo was appointed a spokesdog for Virgin America airline, which featured photos of him in an airplane along with advice for people traveling with pets. In April 2012, Boo was the subject of a death hoax after #RIPBOO appeared on Facebook. Tweets followed as Gizmodo writer Sam Biddle tweeted Boo had died. It was later confirmed by The Chronicle Book staff that Boo was alive and well. In July 2012, Boo was named the Official Pet Liaison of Virgin America.
+						Read more at: <a href="https://en.wikipedia.org/wiki/Boo_(dog)">https://en.wikipedia.org/wiki/Boo_(dog)</a>
+			</div>
+			</div>
+			</div>
+			<div class="col-sm-6">
+			<div class="well text-center">
+				<div>
+					<img class="img-responsive" src="https://img.buzzfeed.com/buzzfeed-static/static/2015-04/21/16/enhanced/webdr05/enhanced-31550-1429646952-7.jpg"
+				</div>
+			</div>
+			</div>
+		</div>
+
+	<br><br>
+
+	<div class="row">
+	<div class="col-sm-6 text-center">
+		<button class="btn btn-primary form-control" id="factButton">Random Boo Fact</button>
+		<div class="well text-center">
+			<div>
+					<p id="factText">Click the button for a random Boo fact!</p>
+				</div>
+			</div>
+			</div>
+		<div class="col-sm-6">
+			<div class="panel panel-primary">
+				<div class="panel-heading">List Of Boo's Favorite Things</div>
+				<div class="panel-body">
+					<ol>
+						<li>Dressing Up</li>
+						<li>Eating Grass</li>
+						<li>Sleeping</li>
+						<li>Swimming</li>
+						<li>Hiking</li>
+					</ol>
+				</div>
+				</div>
+			</div>
+	</div>
+
+	<br><br><br><br>
+
+	<div class="row text-center">
+			
+	<div class="col-sm-6 text-center">
+				<button class="btn" id="textGreen">Green</button>
+				<button class="btn" id="textOrange">Orange</button>
+			    <button class="btn" id="textPink">Pink</button>
+			<br>
+			<br>
+			<div class="well text-center">
+				<p id="funText">Boo Rules!</p>
+			</div>
+
+		</div>
+
+		<div class="col-sm-6">
+		<button class="btn" id="boxGrow">Grow</button>
+		<button class="btn" id="boxShrink">Shrink</button>
+		<br>
+		<br>
+		<div class="well text-center">
+			<img id="box" src="data:image/jpeg;base64,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">
+		</div>
+	</div>
+
+	</div>
+	
+</div>
+
+<script type="text/javascript" src="logic.js"></script>
+</body>
+</html>
